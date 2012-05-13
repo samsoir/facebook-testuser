@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'facebook-testuser' target in the 'facebook-testuser' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
