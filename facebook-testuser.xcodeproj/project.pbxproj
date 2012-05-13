@@ -8,13 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		7BAD4C591560607E00ECDA4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BAD4C581560607E00ECDA4D /* Foundation.framework */; };
-		7BAD4C5F1560607E00ECDA4D /* facebook_testuser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAD4C5E1560607E00ECDA4D /* facebook_testuser.m */; };
 		7BAD4C671560607E00ECDA4D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BAD4C661560607E00ECDA4D /* SenTestingKit.framework */; };
 		7BAD4C691560607E00ECDA4D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BAD4C681560607E00ECDA4D /* UIKit.framework */; };
 		7BAD4C6A1560607E00ECDA4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BAD4C581560607E00ECDA4D /* Foundation.framework */; };
 		7BAD4C6D1560607E00ECDA4D /* libfacebook-testuser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BAD4C551560607E00ECDA4D /* libfacebook-testuser.a */; };
 		7BAD4C731560607E00ECDA4D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7BAD4C711560607E00ECDA4D /* InfoPlist.strings */; };
 		7BAD4C761560607E00ECDA4D /* facebook_testuserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAD4C751560607E00ECDA4D /* facebook_testuserTests.m */; };
+		7BAD4C9A1560615D00ECDA4D /* Facebook.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BAD4C811560615D00ECDA4D /* Facebook.h */; };
+		7BAD4C9B1560615D00ECDA4D /* FBConnect.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BAD4C821560615D00ECDA4D /* FBConnect.h */; };
+		7BAD4C9C1560615D00ECDA4D /* FBDialog.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BAD4C841560615D00ECDA4D /* FBDialog.h */; };
+		7BAD4C9D1560615D00ECDA4D /* FBFrictionlessRequestSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BAD4C851560615D00ECDA4D /* FBFrictionlessRequestSettings.h */; };
+		7BAD4C9E1560615D00ECDA4D /* FBLoginDialog.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BAD4C861560615D00ECDA4D /* FBLoginDialog.h */; };
+		7BAD4C9F1560615D00ECDA4D /* FBRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BAD4C871560615D00ECDA4D /* FBRequest.h */; };
+		7BAD4CA01560615D00ECDA4D /* JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BAD4C881560615D00ECDA4D /* JSON.h */; };
+		7BAD4CA11560615D00ECDA4D /* libfacebook_ios_sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BAD4C891560615D00ECDA4D /* libfacebook_ios_sdk.a */; };
+		7BAD4CA21560615D00ECDA4D /* NSObject+SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BAD4C8A1560615D00ECDA4D /* NSObject+SBJSON.h */; };
+		7BAD4CA31560615D00ECDA4D /* NSString+SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BAD4C8B1560615D00ECDA4D /* NSString+SBJSON.h */; };
+		7BAD4CA41560615D00ECDA4D /* SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BAD4C8C1560615D00ECDA4D /* SBJSON.h */; };
+		7BAD4CA51560615D00ECDA4D /* SBJsonBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BAD4C8D1560615D00ECDA4D /* SBJsonBase.h */; };
+		7BAD4CA61560615D00ECDA4D /* SBJsonParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BAD4C8E1560615D00ECDA4D /* SBJsonParser.h */; };
+		7BAD4CA71560615D00ECDA4D /* SBJsonWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BAD4C8F1560615D00ECDA4D /* SBJsonWriter.h */; };
+		7BAD4CA81560615D00ECDA4D /* GTMGatherInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BAD4C911560615D00ECDA4D /* GTMGatherInputStream.h */; };
+		7BAD4CA91560615D00ECDA4D /* GTMHTTPFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BAD4C921560615D00ECDA4D /* GTMHTTPFetcher.h */; };
+		7BAD4CAA1560615D00ECDA4D /* GTMHTTPFetcherLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BAD4C931560615D00ECDA4D /* GTMHTTPFetcherLogging.h */; };
+		7BAD4CAB1560615D00ECDA4D /* GTMHTTPFetcherService.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BAD4C941560615D00ECDA4D /* GTMHTTPFetcherService.h */; };
+		7BAD4CAC1560615D00ECDA4D /* GTMHTTPFetchHistory.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BAD4C951560615D00ECDA4D /* GTMHTTPFetchHistory.h */; };
+		7BAD4CAD1560615D00ECDA4D /* GTMHTTPUploadFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BAD4C961560615D00ECDA4D /* GTMHTTPUploadFetcher.h */; };
+		7BAD4CAE1560615D00ECDA4D /* GTMMIMEDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BAD4C971560615D00ECDA4D /* GTMMIMEDocument.h */; };
+		7BAD4CAF1560615D00ECDA4D /* GTMReadMonitorInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BAD4C981560615D00ECDA4D /* GTMReadMonitorInputStream.h */; };
+		7BAD4CB01560615D00ECDA4D /* libGTMHTTPFetcher.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BAD4C991560615D00ECDA4D /* libGTMHTTPFetcher.a */; };
+		7BAD4CB61560622200ECDA4D /* Facebook+SDFFacebookTestUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAD4CB41560622200ECDA4D /* Facebook+SDFFacebookTestUser.m */; };
+		7BAD4CBB156065EE00ECDA4D /* Facebook+SDFFacebookTestUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BAD4CBA156065EE00ECDA4D /* Facebook+SDFFacebookTestUser.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +54,40 @@
 /* Begin PBXFileReference section */
 		7BAD4C551560607E00ECDA4D /* libfacebook-testuser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libfacebook-testuser.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BAD4C581560607E00ECDA4D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		7BAD4C5C1560607E00ECDA4D /* facebook-testuser-Prefix.pch */ = {isa = PBXFileReference; path = "facebook-testuser-Prefix.pch"; sourceTree = "<group>"; };
-		7BAD4C5D1560607E00ECDA4D /* facebook_testuser.h */ = {isa = PBXFileReference; path = facebook_testuser.h; sourceTree = "<group>"; };
-		7BAD4C5E1560607E00ECDA4D /* facebook_testuser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = facebook_testuser.m; sourceTree = "<group>"; };
+		7BAD4C5C1560607E00ECDA4D /* facebook-testuser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "facebook-testuser-Prefix.pch"; sourceTree = "<group>"; };
 		7BAD4C651560607E00ECDA4D /* facebook-testuserTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "facebook-testuserTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BAD4C661560607E00ECDA4D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		7BAD4C681560607E00ECDA4D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		7BAD4C701560607E00ECDA4D /* facebook-testuserTests-Info.plist */ = {isa = PBXFileReference; path = "facebook-testuserTests-Info.plist"; sourceTree = "<group>"; };
+		7BAD4C701560607E00ECDA4D /* facebook-testuserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "facebook-testuserTests-Info.plist"; sourceTree = "<group>"; };
 		7BAD4C721560607E00ECDA4D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		7BAD4C741560607E00ECDA4D /* facebook_testuserTests.h */ = {isa = PBXFileReference; path = facebook_testuserTests.h; sourceTree = "<group>"; };
+		7BAD4C741560607E00ECDA4D /* facebook_testuserTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = facebook_testuserTests.h; sourceTree = "<group>"; };
 		7BAD4C751560607E00ECDA4D /* facebook_testuserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = facebook_testuserTests.m; sourceTree = "<group>"; };
+		7BAD4C811560615D00ECDA4D /* Facebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facebook.h; sourceTree = "<group>"; };
+		7BAD4C821560615D00ECDA4D /* FBConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBConnect.h; sourceTree = "<group>"; };
+		7BAD4C831560615D00ECDA4D /* FBDialog.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FBDialog.bundle; sourceTree = "<group>"; };
+		7BAD4C841560615D00ECDA4D /* FBDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBDialog.h; sourceTree = "<group>"; };
+		7BAD4C851560615D00ECDA4D /* FBFrictionlessRequestSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBFrictionlessRequestSettings.h; sourceTree = "<group>"; };
+		7BAD4C861560615D00ECDA4D /* FBLoginDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLoginDialog.h; sourceTree = "<group>"; };
+		7BAD4C871560615D00ECDA4D /* FBRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRequest.h; sourceTree = "<group>"; };
+		7BAD4C881560615D00ECDA4D /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		7BAD4C891560615D00ECDA4D /* libfacebook_ios_sdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfacebook_ios_sdk.a; sourceTree = "<group>"; };
+		7BAD4C8A1560615D00ECDA4D /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		7BAD4C8B1560615D00ECDA4D /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		7BAD4C8C1560615D00ECDA4D /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		7BAD4C8D1560615D00ECDA4D /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		7BAD4C8E1560615D00ECDA4D /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		7BAD4C8F1560615D00ECDA4D /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		7BAD4C911560615D00ECDA4D /* GTMGatherInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMGatherInputStream.h; sourceTree = "<group>"; };
+		7BAD4C921560615D00ECDA4D /* GTMHTTPFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMHTTPFetcher.h; sourceTree = "<group>"; };
+		7BAD4C931560615D00ECDA4D /* GTMHTTPFetcherLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMHTTPFetcherLogging.h; sourceTree = "<group>"; };
+		7BAD4C941560615D00ECDA4D /* GTMHTTPFetcherService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMHTTPFetcherService.h; sourceTree = "<group>"; };
+		7BAD4C951560615D00ECDA4D /* GTMHTTPFetchHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMHTTPFetchHistory.h; sourceTree = "<group>"; };
+		7BAD4C961560615D00ECDA4D /* GTMHTTPUploadFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMHTTPUploadFetcher.h; sourceTree = "<group>"; };
+		7BAD4C971560615D00ECDA4D /* GTMMIMEDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMMIMEDocument.h; sourceTree = "<group>"; };
+		7BAD4C981560615D00ECDA4D /* GTMReadMonitorInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMReadMonitorInputStream.h; sourceTree = "<group>"; };
+		7BAD4C991560615D00ECDA4D /* libGTMHTTPFetcher.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGTMHTTPFetcher.a; sourceTree = "<group>"; };
+		7BAD4CB41560622200ECDA4D /* Facebook+SDFFacebookTestUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Facebook+SDFFacebookTestUser.m"; sourceTree = "<group>"; };
+		7BAD4CBA156065EE00ECDA4D /* Facebook+SDFFacebookTestUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Facebook+SDFFacebookTestUser.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +96,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BAD4C591560607E00ECDA4D /* Foundation.framework in Frameworks */,
+				7BAD4CA11560615D00ECDA4D /* libfacebook_ios_sdk.a in Frameworks */,
+				7BAD4CB01560615D00ECDA4D /* libGTMHTTPFetcher.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,8 +147,9 @@
 		7BAD4C5A1560607E00ECDA4D /* facebook-testuser */ = {
 			isa = PBXGroup;
 			children = (
-				7BAD4C5D1560607E00ECDA4D /* facebook_testuser.h */,
-				7BAD4C5E1560607E00ECDA4D /* facebook_testuser.m */,
+				7BAD4CB1156061D300ECDA4D /* include */,
+				7BAD4CB2156061D300ECDA4D /* src */,
+				7BAD4C7F1560615D00ECDA4D /* lib */,
 				7BAD4C5B1560607E00ECDA4D /* Supporting Files */,
 			);
 			path = "facebook-testuser";
@@ -131,6 +182,69 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		7BAD4C7F1560615D00ECDA4D /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				7BAD4C801560615D00ECDA4D /* facebook-ios-sdk */,
+				7BAD4C901560615D00ECDA4D /* GTMHTTPFetcher */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		7BAD4C801560615D00ECDA4D /* facebook-ios-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				7BAD4C811560615D00ECDA4D /* Facebook.h */,
+				7BAD4C821560615D00ECDA4D /* FBConnect.h */,
+				7BAD4C831560615D00ECDA4D /* FBDialog.bundle */,
+				7BAD4C841560615D00ECDA4D /* FBDialog.h */,
+				7BAD4C851560615D00ECDA4D /* FBFrictionlessRequestSettings.h */,
+				7BAD4C861560615D00ECDA4D /* FBLoginDialog.h */,
+				7BAD4C871560615D00ECDA4D /* FBRequest.h */,
+				7BAD4C881560615D00ECDA4D /* JSON.h */,
+				7BAD4C891560615D00ECDA4D /* libfacebook_ios_sdk.a */,
+				7BAD4C8A1560615D00ECDA4D /* NSObject+SBJSON.h */,
+				7BAD4C8B1560615D00ECDA4D /* NSString+SBJSON.h */,
+				7BAD4C8C1560615D00ECDA4D /* SBJSON.h */,
+				7BAD4C8D1560615D00ECDA4D /* SBJsonBase.h */,
+				7BAD4C8E1560615D00ECDA4D /* SBJsonParser.h */,
+				7BAD4C8F1560615D00ECDA4D /* SBJsonWriter.h */,
+			);
+			path = "facebook-ios-sdk";
+			sourceTree = "<group>";
+		};
+		7BAD4C901560615D00ECDA4D /* GTMHTTPFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				7BAD4C911560615D00ECDA4D /* GTMGatherInputStream.h */,
+				7BAD4C921560615D00ECDA4D /* GTMHTTPFetcher.h */,
+				7BAD4C931560615D00ECDA4D /* GTMHTTPFetcherLogging.h */,
+				7BAD4C941560615D00ECDA4D /* GTMHTTPFetcherService.h */,
+				7BAD4C951560615D00ECDA4D /* GTMHTTPFetchHistory.h */,
+				7BAD4C961560615D00ECDA4D /* GTMHTTPUploadFetcher.h */,
+				7BAD4C971560615D00ECDA4D /* GTMMIMEDocument.h */,
+				7BAD4C981560615D00ECDA4D /* GTMReadMonitorInputStream.h */,
+				7BAD4C991560615D00ECDA4D /* libGTMHTTPFetcher.a */,
+			);
+			path = GTMHTTPFetcher;
+			sourceTree = "<group>";
+		};
+		7BAD4CB1156061D300ECDA4D /* include */ = {
+			isa = PBXGroup;
+			children = (
+				7BAD4CBA156065EE00ECDA4D /* Facebook+SDFFacebookTestUser.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		7BAD4CB2156061D300ECDA4D /* src */ = {
+			isa = PBXGroup;
+			children = (
+				7BAD4CB41560622200ECDA4D /* Facebook+SDFFacebookTestUser.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -138,6 +252,28 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BAD4C9A1560615D00ECDA4D /* Facebook.h in Headers */,
+				7BAD4C9B1560615D00ECDA4D /* FBConnect.h in Headers */,
+				7BAD4C9C1560615D00ECDA4D /* FBDialog.h in Headers */,
+				7BAD4C9D1560615D00ECDA4D /* FBFrictionlessRequestSettings.h in Headers */,
+				7BAD4C9E1560615D00ECDA4D /* FBLoginDialog.h in Headers */,
+				7BAD4C9F1560615D00ECDA4D /* FBRequest.h in Headers */,
+				7BAD4CA01560615D00ECDA4D /* JSON.h in Headers */,
+				7BAD4CA21560615D00ECDA4D /* NSObject+SBJSON.h in Headers */,
+				7BAD4CA31560615D00ECDA4D /* NSString+SBJSON.h in Headers */,
+				7BAD4CA41560615D00ECDA4D /* SBJSON.h in Headers */,
+				7BAD4CA51560615D00ECDA4D /* SBJsonBase.h in Headers */,
+				7BAD4CA61560615D00ECDA4D /* SBJsonParser.h in Headers */,
+				7BAD4CA71560615D00ECDA4D /* SBJsonWriter.h in Headers */,
+				7BAD4CA81560615D00ECDA4D /* GTMGatherInputStream.h in Headers */,
+				7BAD4CA91560615D00ECDA4D /* GTMHTTPFetcher.h in Headers */,
+				7BAD4CAA1560615D00ECDA4D /* GTMHTTPFetcherLogging.h in Headers */,
+				7BAD4CAB1560615D00ECDA4D /* GTMHTTPFetcherService.h in Headers */,
+				7BAD4CAC1560615D00ECDA4D /* GTMHTTPFetchHistory.h in Headers */,
+				7BAD4CAD1560615D00ECDA4D /* GTMHTTPUploadFetcher.h in Headers */,
+				7BAD4CAE1560615D00ECDA4D /* GTMMIMEDocument.h in Headers */,
+				7BAD4CAF1560615D00ECDA4D /* GTMReadMonitorInputStream.h in Headers */,
+				7BAD4CBB156065EE00ECDA4D /* Facebook+SDFFacebookTestUser.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +375,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BAD4C5F1560607E00ECDA4D /* facebook_testuser.m in Sources */,
+				7BAD4CB61560622200ECDA4D /* Facebook+SDFFacebookTestUser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +455,11 @@
 				DSTROOT = /tmp/facebook_testuser.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "facebook-testuser/facebook-testuser-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/facebook-testuser/lib/facebook-ios-sdk\"",
+					"\"$(SRCROOT)/facebook-testuser/lib/GTMHTTPFetcher\"",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -331,6 +472,11 @@
 				DSTROOT = /tmp/facebook_testuser.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "facebook-testuser/facebook-testuser-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/facebook-testuser/lib/facebook-ios-sdk\"",
+					"\"$(SRCROOT)/facebook-testuser/lib/GTMHTTPFetcher\"",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
